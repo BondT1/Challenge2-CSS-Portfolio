@@ -3,3 +3,71 @@
     padding: 0;
     margin: 0;
   }
+
+  body {
+    background-color: #808080
+  }
+  
+  header {
+    padding: 20px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  header h1 {
+    display: inline-block;
+    font-size: 48px;
+  }
+
+  header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 20px;
+  }
+
+  header nav ul {
+    list-style-type: none;
+  }
+
+  header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+  }
+
+  header nav ul li a {
+    color: white;
+    text-decoration: solid;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .about-me {
+    padding: 20px;
+    background-color: aliceblue;
+    color:#000000;
+  }
+
+  .about-me img {
+    max-height: 400px;
+    padding: 20px;
+  }
+
+  about-me h2 {
+    margin-left: 100px;
+  }
+
+  h2 {  
+    font-size: 30px;
+  }
+
+  .float-right {
+    float: right;
+    margin-left: 25px;
+  }
