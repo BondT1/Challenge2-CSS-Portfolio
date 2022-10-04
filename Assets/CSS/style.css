@@ -49,20 +49,47 @@
   }
 
   .about-me {
-    padding: 20px;
     background-color: aliceblue;
     color:#000000;
-  }
+  } 
 
   .about-me img {
     max-height: 400px;
     padding: 20px;
+    border-radius: 30px;
   }
 
-  about-me h2 {
-    margin-left: 100px;
+  .about-me h2 {
+    padding: 20px;
+    padding-top: 170px;
+    width: 10%; 
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    background-color: lightblue;
+    text-align: center;
   }
 
+  .about-me p {
+    width: 60%;
+    height: 300px;
+    margin: 20px;
+    border-radius: 50px;
+    margin-top: 75px;
+  }
+    
+    
+    
+    /*margin-bottom: 10px;
+    margin-top: 150px;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 10px; 
+    background-color: lightblue;
+    width: 60%; 
+    height: 10%;
+  }*/
+  
   h2 {  
     font-size: 30px;
   }
