@@ -70,10 +70,10 @@
 
   .about-me p {
     width: 60%;
-    height: 300px;
-    margin: 20px;
     border-radius: 50px;
-    margin-top: 75px;
+    /* margin-top: 65px; */
+    padding: 20px;
+    padding-top: 60px;
   }
     
     
@@ -94,7 +94,32 @@
     font-size: 30px;
   }
 
-  .float-right {
-    float: right;
-    margin-left: 25px;
+  .work h2 {
+    padding: 20px;
+    padding-top: 170px;
+    padding-bottom: 170px;  
+    width: 10%; 
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    background-color: lightcyan;
+    text-align: center;
   }
+
+  div {
+    width: 30%;
+    height: 500px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+
+  .horiseon {
+    width: 60%;
+    height: 500px;
+    margin: 40px;
+    background-color: antiquewhite;
+  }
+
+  .horiseon h3 {
+    position: relative;
+    top: 50px;
+  }
+  
