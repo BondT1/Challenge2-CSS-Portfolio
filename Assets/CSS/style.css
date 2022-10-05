@@ -5,7 +5,7 @@
   }
 
   body {
-    background-color: #808080
+    background-color: white;
   }
   
   header {
@@ -48,11 +48,6 @@
     flex-wrap: wrap;
   }
 
-  .about-me {
-    background-color: aliceblue;
-    color:#000000;
-  } 
-
   .about-me img {
     max-height: 400px;
     padding: 20px;
@@ -62,16 +57,15 @@
   .about-me h2 {
     padding: 20px;
     padding-top: 170px;
-    width: 10%; 
+    width: 20%; 
     font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
     background-color: lightblue;
-    text-align: center;
+    text-align: right;
   }
 
   .about-me p {
     width: 60%;
     border-radius: 50px;
-    /* margin-top: 65px; */
     padding: 20px;
     padding-top: 60px;
   }
@@ -98,28 +92,52 @@
     padding: 20px;
     padding-top: 170px;
     padding-bottom: 170px;  
-    width: 10%; 
+    width: 20%; 
     font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
     background-color: lightcyan;
-    text-align: center;
+    text-align: right;
   }
 
   div {
     width: 30%;
-    height: 500px;
+    height: 175px;
     margin: 20px;
     border-radius: 10px;
+    background-color: lightgreen;
   }
 
   .horiseon {
-    width: 60%;
-    height: 500px;
-    margin: 40px;
+    width: 45%;
+    height: 400px;
+    margin: 20px;
     background-color: antiquewhite;
   }
 
   .horiseon h3 {
     position: relative;
-    top: 50px;
+    top: 20px;
+    left: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .contact-me h2 {
+    padding: 20px;
+    padding-top: 75px;
+    padding-bottom: 75px;  
+    width: 20%; 
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    background-color: lightcoral;
+    text-align: right;
   }
   
