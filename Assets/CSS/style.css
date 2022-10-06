@@ -49,35 +49,28 @@
     flex-wrap: wrap;
   }
 
-
   .about-me {   
-    clear: both;
-    /* float: left;
     padding: 20px;
-    padding-left: 250px;
-    padding-bottom: 350px; */
-    padding: 20px;
-    padding-left: 20px;
-    padding-top: 25px;
-    justify-content: flex-start;
-  }
-
-  .about-me h2 {
     text-align: right;
-    align-items: center;
-    width: 300px;
+    display: flex;    
+    width: 100%;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+    justify-content: flex-start
   }
 
-  .about-me img {
+  .information {
+    display: flex;
+  }
+
+  .information img {
     max-height: 400px;
     padding: 20px;
     border-radius: 30px;
     margin-left: 20px;
   }
 
-  .about-me p {
+  .information p {
     width: 60%;
     border-radius: 50px;
     padding: 20px;
@@ -90,24 +83,17 @@
   }
 
   .work {
-    clear: both; 
-    float: left;
     padding: 20px;
-    /* justify-content: left; */
+    text-align: right;
+    display: flex;    
+    width: 100%;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  }
-
-  .work h2 {
-    text-align: right;
-    display: flex;
-    flex-flow: column wrap;
-    height: 700px;
-    width: 300px;
+    justify-content: flex-start;
   }
 
   .applications {
-    justify-content: left;
+    justify-content: center;
   }
 
   div {
@@ -143,7 +129,6 @@
     min-width: 600px;
     max-width: 750px;
   }
-
 
   .card-header h3 {
     /* position: relative;
