@@ -93,12 +93,12 @@
     padding-top: 25px;
     justify-content: left;
     background-color: lightpink;
-  }
-
-  .work h2 {
-    text-align: right;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  }
+
+  .applications {
+    justify-content: space-around;
   }
 
   div {
@@ -107,7 +107,6 @@
     margin: 20px;
     border-radius: 10px;
     background-color: lightgreen;
-    justify-content: space-between;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   }
@@ -150,7 +149,7 @@
     padding: 25px;
     /* padding-top: 50px;
     padding-bottom: 50px; */
-    justify-content: left;
+    justify-content: space-between;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
     background-color: black;
