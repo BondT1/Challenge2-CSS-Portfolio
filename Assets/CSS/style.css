@@ -65,7 +65,7 @@
   .about-me h2 {
     text-align: right;
     align-items: center;
-    background-color: lightsalmon;
+    width: 300px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   }
@@ -74,6 +74,7 @@
     max-height: 400px;
     padding: 20px;
     border-radius: 30px;
+    margin-left: 20px;
   }
 
   .about-me p {
@@ -81,6 +82,7 @@
     border-radius: 50px;
     padding: 20px;
     padding-top: 60px;
+    flex-wrap: wrap;
   }
   
   h2 {  
@@ -97,10 +99,11 @@
   }
 
   .work h2 {
-    background-color: lightpink;
     text-align: right;
-    padding-left: 60px;   
-    height: 715px;
+    display: flex;
+    flex-flow: column wrap;
+    height: 700px;
+    width: 300px;
   }
 
   .applications {
@@ -108,19 +111,22 @@
   }
 
   div {
-    width: 30.58%;
+    width: 600px;
     height: 225px;
     margin: 20px;
     border-radius: 10px;
+    min-width: 400px;
     background-color: lightgreen;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   }
 
   .horiseon {
-    width: 50%;
-    height: 450px;
+    width: 1100px;
+    height: 500px;
     background-color: antiquewhite;
+    max-width: 1100px;
+    justify-content: center;
   }
 
   .horiseon h3 {
@@ -134,6 +140,8 @@
   .horiseon img {
     width: 100%;
     height: 432px;
+    min-width: 600px;
+    max-width: 750px;
   }
 
 
@@ -145,31 +153,51 @@
     color: white;
   }
 
-  .google {
+  /* .google {
     width: 34.5%;
     height: 450px;
-  }
+  } */
 
   footer {
-    /* float: left; */
-    padding: 25px;
-    /* padding-top: 50px;
-    padding-bottom: 50px; */
-    justify-content: space-between;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    padding: 40px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", 
     "Lucida Sans", Arial, sans-serif;
-    background-color: black;
-    color: white;
-    
+    background-color: #000000;
+    color: #ffffff;
+    justify-content: space-between;
   }
 
   footer h2 {
-    text-align: right;
+    display: inline-block;
+    font-size: 40px;
+  }
+
+  footer ul {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+    list-style-type: none;
   }
 
   footer ul li {
     display: inline-block;
-    justify-content: space-between;
-    margin-left: 200px;
-    font-size: 20px; 
+    margin-left: 25px;
+    color: white;
+    text-decoration: solid;
   }
+
+
+  @media screen and (max-width:1220px) {
+    div, .google, .horiseon {
+        width: 45%;
+    }
+}
+
+  @media screen and (max-width:992px) {
+    div, .google, .horiseon {
+        width: 90%; 
+    }
+}
